@@ -5,11 +5,11 @@ public String major;
 UnivF(String name, String tel, String major) {
 	super.name = name;
 	super.tel = tel;
-	super.memo = major;
+	this.major = major;
 }
 @Override
 public String toString() {
-	System.out.println("친구들>>  이름:" + name + ",  연락처:" + tel + ",  전공:" + memo);
+	System.out.println("친구들>>  이름:" + name + ",  연락처:" + tel + ",  전공:" + major);
 	return null;
 	
 }
