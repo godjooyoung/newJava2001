@@ -8,7 +8,7 @@ public class MainApp extends Lotto{
 	Scanner scanner = new Scanner(System.in);
 	
 		System.out.println("금액을 입력하세요 : ");
-		int a = 0;
+		int money = super.money;
 		a = scanner.nextInt();
 		scanner.nextLine();
 		
